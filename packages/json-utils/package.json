@@ -1,0 +1,22 @@
+{
+  "name": "json-utils",
+  "version": "1.0.0",
+  "description": "Framework-independent utilities for visualizing and analyzing json data.",
+  "author": "Ryan Tipps",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "data",
+    "visualization",
+    "analysis",
+    "tree"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

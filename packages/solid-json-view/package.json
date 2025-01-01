@@ -1,0 +1,32 @@
+{
+  "name": "solid-json-view",
+  "version": "1.0.0",
+  "description": "SolidJS component for visualizing JSON data.",
+  "author": "Ryan Tipps",
+  "license": "MIT",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "json",
+    "view",
+    "component"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.9.3"
+  },
+  "dependencies": {
+    "json-utils": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0",
+    "solid-js": "^1.9.3",
+    "typescript": "^5.0.0"
+  }
+}

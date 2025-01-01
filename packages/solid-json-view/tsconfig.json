@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve", // Preserve JSX for Solid
+    "jsxImportSource": "solid-js", // Use Solid's JSX runtime
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}
