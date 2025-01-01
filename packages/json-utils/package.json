@@ -1,5 +1,5 @@
 {
-  "name": "json-utils",
+  "name": "@ryantipps/json-utils",
   "version": "1.0.0",
   "description": "Framework-independent utilities for visualizing and analyzing json data.",
   "author": "Ryan Tipps",
