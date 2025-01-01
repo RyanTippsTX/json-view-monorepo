@@ -1,0 +1,11 @@
+{
+  "name": "json-view-monorepo",
+  "private": true,
+  "description": "A monorepo for JSON utilities and SolidJS components",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "clean": "pnpm -r run clean"
+  }
+}
