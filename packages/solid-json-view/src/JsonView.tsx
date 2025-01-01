@@ -1,6 +1,6 @@
 import { Accessor, Show, createMemo } from 'solid-js';
 import { Classes, TreeView } from './TreeView';
-import { analyzeJson } from 'json-utils';
+import { analyzeJson } from '@ryantipps/json-utils';
 
 export function JsonView(props: { jsonString: Accessor<string>; classes?: Classes }) {
   const analysis = createMemo(() => analyzeJson(props.jsonString()));
