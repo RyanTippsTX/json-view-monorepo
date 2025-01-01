@@ -1,13 +1,13 @@
 import { createSignal, Show, For } from 'solid-js';
 
-type TreeNode = {
+export type TreeNode = {
   type: string;
   key: string | null;
   value?: string | number | boolean | null;
   children?: TreeNode[];
 };
 
-type Classes = {
+export type Classes = {
   propertyName?: string;
   string?: string;
   number?: string;
