@@ -3,7 +3,8 @@
     "target": "ESNext",
     "module": "ESNext",
     "declaration": true,
-    "outDir": "dist",
+    "declarationDir": "./dist",
+    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true
   },
