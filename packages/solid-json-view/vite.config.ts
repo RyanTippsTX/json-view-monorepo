@@ -8,14 +8,18 @@ export default defineConfig({
     lib: {
       entry: './src/index.ts',
       name: 'solid-json-view',
-      fileName: (format) => `index.${format}.js`,
+      fileName: (format) => {
+        if (format === 'es') return 'index.esm.js'; // ES module
+        return 'index.js'; // UMD/CommonJS
+      },
+      formats: ['es', 'umd'],
     },
     rollupOptions: {
-      external: ['solid-js', 'json-utils'],
+      external: ['solid-js', '@ryantipps/json-utils'],
       output: {
         globals: {
           'solid-js': 'Solid',
-          'json-utils': 'JsonUtils',
+          '@ryantipps/json-utils': 'JsonUtils',
         },
       },
     },

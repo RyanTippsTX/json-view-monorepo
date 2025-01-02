@@ -9,8 +9,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "declarationDir": "./dist",
-    "outDir": "./dist"
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }
