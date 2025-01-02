@@ -1,6 +1,6 @@
 {
   "name": "@ryantipps/json-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Framework-independent utilities for visualizing and analyzing json data.",
   "author": "Ryan Tipps",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanTippsTX/json-view-monorepo.git"
+    "url": "git+https://github.com/RyanTippsTX/json-view-monorepo.git"
   },
   "homepage": "https://github.com/RyanTippsTX/json-view-monorepo/tree/master/packages/json-utils"
 }
