@@ -32,7 +32,12 @@ export function TreeView(props: { node: TreeNode; classes?: Classes }) {
   };
 
   return (
-    <div class="pl-5 font-mono">
+    <div
+      style={{
+        'padding-left': '1.25rem',
+        'font-family': 'monospace',
+      }}
+    >
       {/* Display node key */}
       <Show when={props.node.key !== null}>
         <span class={props.classes?.propertyName}>
@@ -48,9 +53,15 @@ export function TreeView(props: { node: TreeNode; classes?: Classes }) {
       {/* Display for arrays/objects */}
       <Show when={props.node.type === 'array' || props.node.type === 'object'}>
         <span class={props.node.type === 'array' ? props.classes?.array : props.classes?.object}>
-          <button onClick={toggleCollapse} class="ml-[5px]">
+          <button
+            onClick={toggleCollapse}
+            style={{
+              'padding-left': '0.3rem',
+              'padding-right': '0.3rem',
+            }}
+          >
             {isCollapsed() ? '+' : '-'}
-          </button>{' '}
+          </button>
           {props.node.type === 'array' ? 'Array' : 'Object'}
         </span>
         <Show when={!isCollapsed()}>

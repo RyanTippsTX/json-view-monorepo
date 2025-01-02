@@ -1,6 +1,6 @@
 {
   "name": "@ryantipps/solid-json-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SolidJS component for visualizing JSON data.",
   "author": "Ryan Tipps",
   "license": "MIT",
