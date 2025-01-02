@@ -29,5 +29,10 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanTippsTX/json-view-monorepo.git"
+  },
+  "homepage": "https://github.com/RyanTippsTX/json-view-monorepo/tree/master/packages/json-utils"
 }
